@@ -1,0 +1,11 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "Разработка Корзины Покупок в Интернет-Магазине с использованием this в JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pablo",
+  "license": "ISC"
+}
