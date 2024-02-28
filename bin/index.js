@@ -1,9 +1,22 @@
 #!/usr/bin/env node
 
-import { shoppingCart } from './shoppingCart.js';
-import { addItem } from './methods.js';
+import { shoppingCart } from '../src/shoppingCart.js';
+import {
+  addItem,
+  clearCart,
+  removeItem,
+  updateQuantity,
+} from '../src/methods.js';
 
-addItem(shoppingCart);
+const boundAddItem = addItem.bind(shoppingCart);
+const boundRemoveItem = removeItem.bind(shoppingCart);
+const boundUpdateQuantity = updateQuantity.bind(shoppingCart);
+const boundClearCart = clearCart.bind(shoppingCart);
+
+boundAddItem();
+boundRemoveItem();
+boundUpdateQuantity();
+boundClearCart();
 
 console.log('Список товаров в корзине:');
 console.log(shoppingCart.items);

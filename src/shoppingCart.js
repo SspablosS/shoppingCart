@@ -1,4 +1,4 @@
-const shoppingCart = {
+let shoppingCart = {
   items: [],
   total: 0,
 };
