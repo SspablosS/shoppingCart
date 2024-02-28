@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/SspablosS/shoppingCart/maintainability"><img src="https://api.codeclimate.com/v1/badges/1e8b554be8aded5f636c/maintainability" /></a>
+
 Задачи:
 
 1.  Создание Объекта Корзины: Создайте объект shoppingCart, который будет содержать свойства, такие как items (массив объектов товаров) и total (общая стоимость товаров в корзине).
