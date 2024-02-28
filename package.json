@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pablo",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "shoppingcart": "bin/index.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
